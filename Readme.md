@@ -48,22 +48,7 @@ kubectl apply -f web-service.yaml
 # Horizontal Pod Autoscaler (HPA)
 kubectl apply -f hpa.yaml
 ```
-todo-app/
-│
-├── k8s/
-│   ├── configmap.yaml
-│   ├── db/
-│   │   ├── db-deployment.yaml
-│   │   ├── db-service.yaml
-│   │   ├── db-pv.yaml
-│   │   └── db-pvc.yaml
-│   ├── web/
-│   │   ├── web-deployment.yaml
-│   │   └── web-service.yaml
-│   └── hpa.yaml
-│
-├── README.md
----
+
 
 ### 🗃️ File Structure Explanation
 
